@@ -20,6 +20,8 @@ using UnityEngine;
  *    7) contacts  
  * */
 #endregion
+
+// Drive all my porfolio project (GUI and other part of them)
 public class GM : MonoBehaviour {
 
 	// Use this for initialization
