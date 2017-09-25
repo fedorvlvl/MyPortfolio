@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: c24c52aace2a4184aa90e55a04300c6c
+timeCreated: 1460021619
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: 0_30X31_51X54_88X90_150x210
+    100002: _Bone027
+    100004: _Bone032
+    100006: _Bone035
+    100008: _Bone036
+    100010: _Bone037
+    100012: _Bone038
+    100014: Bone025
+    100016: Bone026
+    100018: Bone028
+    100020: Bone029
+    100022: Bone030
+    100024: Bone031
+    100026: Bone033
+    100028: Bone034
+    100030: Bone044
+    100032: Bone045
+    100034: Bone046
+    100036: Bone047
+    100038: Bone048
+    100040: Bone049
+    100042: Bone050
+    100044: Bone051
+    100046: Bone052
+    100048: Bone053
+    100050: Bone054
+    100052: Bone055
+    100054: Bone056
+    100056: Bone057
+    100058: Bone058
+    100060: Bone059
+    100062: Dummy014
+    100064: Dummy018
+    100066: Dummy020
+    100068: Dummy_Hand_02
+    100070: Dummy_Hand_03
+    100072: DummyHand_01
+    100074: IK Chain003
+    100076: IK Chain004
+    100078: IK Chain007
+    100080: IK Chain008
+    100082: IK Chain009
+    100084: IK Chain010
+    100086: Plane004
+    100088: Plane013
+    100090: Plane014
+    100092: //RootNode
+    400000: 0_30X31_51X54_88X90_150x210
+    400002: _Bone027
+    400004: _Bone032
+    400006: _Bone035
+    400008: _Bone036
+    400010: _Bone037
+    400012: _Bone038
+    400014: Bone025
+    400016: Bone026
+    400018: Bone028
+    400020: Bone029
+    400022: Bone030
+    400024: Bone031
+    400026: Bone033
+    400028: Bone034
+    400030: Bone044
+    400032: Bone045
+    400034: Bone046
+    400036: Bone047
+    400038: Bone048
+    400040: Bone049
+    400042: Bone050
+    400044: Bone051
+    400046: Bone052
+    400048: Bone053
+    400050: Bone054
+    400052: Bone055
+    400054: Bone056
+    400056: Bone057
+    400058: Bone058
+    400060: Bone059
+    400062: Dummy014
+    400064: Dummy018
+    400066: Dummy020
+    400068: Dummy_Hand_02
+    400070: Dummy_Hand_03
+    400072: DummyHand_01
+    400074: IK Chain003
+    400076: IK Chain004
+    400078: IK Chain007
+    400080: IK Chain008
+    400082: IK Chain009
+    400084: IK Chain010
+    400086: Plane004
+    400088: Plane013
+    400090: Plane014
+    400092: //RootNode
+    4300000: Plane004
+    4300002: Plane013
+    4300004: Plane014
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Plane004
+    13700002: Plane013
+    13700004: Plane014
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
