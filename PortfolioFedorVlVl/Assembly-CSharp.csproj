@@ -51,6 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Content2D\Beardman\EkranOffxxxxOn\Animations\EkranOffxxxxOn\BirdBaseEvent.cs" />
+     <Compile Include="Assets\Content2D\Beardman\EkranOffxxxxOn\Animations\EkranOffxxxxOn\birdDrive_01.cs" />
+     <Compile Include="Assets\Content2D\Beardman\EkranOffxxxxOn\Animations\EkranOffxxxxOn\speedBird.cs" />
+     <Compile Include="Assets\Content2D\Beardman\sea\Animations\Sea\AllSeaFishManagerScript.cs" />
+     <Compile Include="Assets\Content2D\Beardman\sea\Animations\Sea\FishDestruction.cs" />
+     <Compile Include="Assets\Content2D\Beardman\sea\Animations\Sea\fishfromAss.cs" />
+     <Compile Include="Assets\Content2D\Beardman\sea\Animations\Sea\Fishmoove.cs" />
+     <Compile Include="Assets\Content2D\Beardman\Squid\animations\Squid\AttackPrtSquidOn.cs" />
+     <Compile Include="Assets\Content2D\Beardman\Squid\animations\Squid\prtSquidattackOff.cs" />
      <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_AngleLimitNode.cs" />
      <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_BakeAnimation.cs" />
      <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_Bakedmesh.cs" />
@@ -102,6 +111,9 @@
      <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Utility\Point2DList.cs" />
      <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Utility\Rect2D.cs" />
      <Compile Include="Assets\ScriptsAll\GM.cs" />
+     <None Include="Assets\Puppet2D\Shaders\BlackAndWhite.shader" />
+     <None Include="Assets\Puppet2D\Shaders\VertColor.shader" />
+     <None Include="Assets\Puppet2D\Shaders\unlitTransparentDouble.shader" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>D:/MyWork/myGame/MyPorfolioProject/ProjectPortfolio/PortfolioFedorVlVl/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
