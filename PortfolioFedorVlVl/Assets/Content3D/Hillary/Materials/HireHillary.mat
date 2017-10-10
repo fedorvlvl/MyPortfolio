@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HireHillary
+  m_Shader: {fileID: 4800000, guid: 0fd62aa389178884f803000c43f484ed, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 8993b617f08498f43adcbd90697f1c5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: c6dfb00dbee6bc044a8a3bb22e56e064, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_1365:
+        m_Texture: {fileID: 2800000, guid: 39634a431b46ccd40a9522779a9c0ba7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_3564:
+        m_Texture: {fileID: 2800000, guid: 39634a431b46ccd40a9522779a9c0ba7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_4634:
+        m_Texture: {fileID: 2800000, guid: 39634a431b46ccd40a9522779a9c0ba7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texture:
+        m_Texture: {fileID: 2800000, guid: 39634a431b46ccd40a9522779a9c0ba7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bands: 8
+    - _Gloss: 0.4511278
+    - _node_4570: 1
+    - _node_8573: 0
+    - _strock: 0.00025
+    m_Colors:
+    - _Color: {r: 0.6544118, g: 0.8426978, b: 1, a: 1}
+    - _ColorStrock: {r: 0, g: 0, b: 0, a: 1}
