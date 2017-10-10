@@ -147,6 +147,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 137134884212260480, guid: 4e643b6f293e01040af90ec8a0282f6e,
+        type: 2}
+      propertyPath: m_SkinnedMotionVectors
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4e643b6f293e01040af90ec8a0282f6e, type: 2}
   m_IsPrefabParent: 0

@@ -274,6 +274,7 @@
      <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Sqrt\SFN_Sqrt.shader" />
      <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Depth\SFN_Depth.shader" />
      <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Add\SFN_Add_2.shader" />
+     <None Include="Assets\Content3D\Hillary\Materials\CustomLightingHillary.shader" />
      <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Rotator\SFN_Rotator_PIV.shader" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\Tiles.shader" />
      <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_UVTile\SFN_UVTile.shader" />
