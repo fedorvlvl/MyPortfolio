@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: 332bc2d5759bb0f479be04f1fe2fb511
+timeCreated: 1507658638
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: arm_L0_0_jnt
+    100002: arm_L0_10_jnt
+    100004: arm_L0_11_jnt
+    100006: arm_L0_12_jnt
+    100008: arm_L0_13_jnt
+    100010: arm_L0_1_jnt
+    100012: arm_L0_2_jnt
+    100014: arm_L0_3_jnt
+    100016: arm_L0_4_jnt
+    100018: arm_L0_5_jnt
+    100020: arm_L0_6_jnt
+    100022: arm_L0_7_jnt
+    100024: arm_L0_8_jnt
+    100026: arm_L0_9_jnt
+    100028: arm_R0_0_jnt
+    100030: arm_R0_10_jnt
+    100032: arm_R0_11_jnt
+    100034: arm_R0_12_jnt
+    100036: arm_R0_13_jnt
+    100038: arm_R0_1_jnt
+    100040: arm_R0_2_jnt
+    100042: arm_R0_3_jnt
+    100044: arm_R0_4_jnt
+    100046: arm_R0_5_jnt
+    100048: arm_R0_6_jnt
+    100050: arm_R0_7_jnt
+    100052: arm_R0_8_jnt
+    100054: arm_R0_9_jnt
+    100056: BodyD_02
+    100058: BodyT_02
+    100060: chain_L0_0_jnt
+    100062: chain_L3_0_jnt
+    100064: chain_R0_0_jnt
+    100066: chain_R3_0_jnt
+    100068: Foot_02
+    100070: foot_L0_0_jnt
+    100072: foot_L0_1_jnt
+    100074: foot_R0_0_jnt
+    100076: foot_R0_1_jnt
+    100078: Hillary
+    100080: //RootNode
+    100082: jnt_org
+    100084: leg_L0_0_jnt
+    100086: leg_L0_1_jnt
+    100088: leg_L0_2_jnt
+    100090: leg_L0_3_jnt
+    100092: leg_L0_4_jnt
+    100094: leg_L0_5_jnt
+    100096: leg_L0_6_jnt
+    100098: leg_L0_7_jnt
+    100100: leg_L0_8_jnt
+    100102: leg_L0_end_jnt
+    100104: leg_R0_0_jnt
+    100106: leg_R0_1_jnt
+    100108: leg_R0_2_jnt
+    100110: leg_R0_3_jnt
+    100112: leg_R0_4_jnt
+    100114: leg_R0_5_jnt
+    100116: leg_R0_6_jnt
+    100118: leg_R0_7_jnt
+    100120: leg_R0_8_jnt
+    100122: leg_R0_end_jnt
+    100124: neck_C0_0_jnt
+    100126: rig
+    100128: shoulder_L0_shoulder_jnt
+    100130: shoulder_R0_shoulder_jnt
+    100132: spine_C0_0_jnt
+    100134: spine_C0_1_jnt
+    100136: spine_C0_2_jnt
+    100138: spine_C0_3_jnt
+    100140: spine_C0_4_jnt
+    100142: spine_C0_jnt_org
+    400000: arm_L0_0_jnt
+    400002: arm_L0_10_jnt
+    400004: arm_L0_11_jnt
+    400006: arm_L0_12_jnt
+    400008: arm_L0_13_jnt
+    400010: arm_L0_1_jnt
+    400012: arm_L0_2_jnt
+    400014: arm_L0_3_jnt
+    400016: arm_L0_4_jnt
+    400018: arm_L0_5_jnt
+    400020: arm_L0_6_jnt
+    400022: arm_L0_7_jnt
+    400024: arm_L0_8_jnt
+    400026: arm_L0_9_jnt
+    400028: arm_R0_0_jnt
+    400030: arm_R0_10_jnt
+    400032: arm_R0_11_jnt
+    400034: arm_R0_12_jnt
+    400036: arm_R0_13_jnt
+    400038: arm_R0_1_jnt
+    400040: arm_R0_2_jnt
+    400042: arm_R0_3_jnt
+    400044: arm_R0_4_jnt
+    400046: arm_R0_5_jnt
+    400048: arm_R0_6_jnt
+    400050: arm_R0_7_jnt
+    400052: arm_R0_8_jnt
+    400054: arm_R0_9_jnt
+    400056: BodyD_02
+    400058: BodyT_02
+    400060: chain_L0_0_jnt
+    400062: chain_L3_0_jnt
+    400064: chain_R0_0_jnt
+    400066: chain_R3_0_jnt
+    400068: Foot_02
+    400070: foot_L0_0_jnt
+    400072: foot_L0_1_jnt
+    400074: foot_R0_0_jnt
+    400076: foot_R0_1_jnt
+    400078: Hillary
+    400080: //RootNode
+    400082: jnt_org
+    400084: leg_L0_0_jnt
+    400086: leg_L0_1_jnt
+    400088: leg_L0_2_jnt
+    400090: leg_L0_3_jnt
+    400092: leg_L0_4_jnt
+    400094: leg_L0_5_jnt
+    400096: leg_L0_6_jnt
+    400098: leg_L0_7_jnt
+    400100: leg_L0_8_jnt
+    400102: leg_L0_end_jnt
+    400104: leg_R0_0_jnt
+    400106: leg_R0_1_jnt
+    400108: leg_R0_2_jnt
+    400110: leg_R0_3_jnt
+    400112: leg_R0_4_jnt
+    400114: leg_R0_5_jnt
+    400116: leg_R0_6_jnt
+    400118: leg_R0_7_jnt
+    400120: leg_R0_8_jnt
+    400122: leg_R0_end_jnt
+    400124: neck_C0_0_jnt
+    400126: rig
+    400128: shoulder_L0_shoulder_jnt
+    400130: shoulder_R0_shoulder_jnt
+    400132: spine_C0_0_jnt
+    400134: spine_C0_1_jnt
+    400136: spine_C0_2_jnt
+    400138: spine_C0_3_jnt
+    400140: spine_C0_4_jnt
+    400142: spine_C0_jnt_org
+    4300000: BodyD_02
+    4300002: BodyT_02
+    4300004: Foot_02
+    9500000: //RootNode
+    13700000: BodyD_02
+    13700002: BodyT_02
+    13700004: Foot_02
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
