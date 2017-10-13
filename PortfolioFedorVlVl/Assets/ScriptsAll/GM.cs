@@ -35,3 +35,8 @@ public class GM : MonoBehaviour {
 		
 	}
 }
+
+/* working
+ 1) GUI
+ 2)  
+ * */
