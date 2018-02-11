@@ -684,7 +684,7 @@ public class Puppet2D_Editor : EditorWindow
 
 		switch (e.type)
 		{
-		case EventType.keyDown:
+		case EventType.KeyDown:
 		{
 			if (Event.current.keyCode == (KeyCode.Return))
 			{
@@ -753,7 +753,7 @@ public class Puppet2D_Editor : EditorWindow
 			}
 			break;
 		}
-        case EventType.mouseMove:
+        case EventType.MouseMove:
         {
             if (Event.current.button == 0)
             {
@@ -863,7 +863,7 @@ public class Puppet2D_Editor : EditorWindow
 			break;
 			
 		}
-        case EventType.keyUp:
+        case EventType.KeyUp:
         {
 			if (Event.current.keyCode == (KeyCode.B) || Event.current.keyCode == (KeyCode.N))
             {
@@ -875,7 +875,7 @@ public class Puppet2D_Editor : EditorWindow
             }
             break;
         }
-		case EventType.mouseDrag:
+		case EventType.MouseDrag:
 		{
             paintControlColor = new Color(.8f,1f,.8f,.5f);
 
