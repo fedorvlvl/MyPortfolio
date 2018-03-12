@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: bb89b185a5322ae4bbed858ec96311fb
+timeCreated: 1520860891
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: beard
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone006
+    100012: Bone007
+    100014: Bone008
+    100016: Bone009
+    100018: Bone010
+    100020: Bone011
+    100022: Bone012
+    100024: Bone013
+    100026: Bone014
+    100028: Bone016
+    100030: Bone017
+    100032: Bone018
+    100034: Bone019
+    100036: Bone020
+    100038: Bone021
+    100040: Bone022
+    100042: Bone023
+    100044: Bone024
+    100046: Bone025
+    100048: Bone026
+    100050: Bone027
+    100052: Bone029
+    100054: Bone030
+    100056: Bone031
+    100058: Bone032
+    100060: Bone033
+    100062: Bone034
+    100064: Bone036
+    100066: Bone037
+    100068: Bone038
+    100070: Bone039
+    100072: Camera001
+    100074: //RootNode
+    100076: Dummy001
+    100078: Dummy002
+    100080: Dummy003
+    100082: Dummy004
+    100084: Dummy005
+    100086: Dummy006
+    100088: Dummy007
+    100090: Dummy008
+    100092: Dummy009
+    100094: Dummy010
+    100096: Dummy011
+    100098: Dummy012
+    100100: Dummy013
+    100102: Dummy014
+    100104: Dummy015
+    100106: Dummy016
+    100108: Dummy017
+    100110: Dummy018
+    100112: Dummy019
+    100114: Dummy020
+    100116: Dummy021
+    100118: Dummy023
+    100120: Dummy024
+    100122: Dummy026
+    100124: Dummy028
+    100126: Dummy030
+    100128: Dummy031
+    100130: Dummy032
+    100132: Dummy033
+    100134: Dummy034
+    100136: eye
+    100138: Mistush
+    100140: Plane001
+    100142: Plane002
+    100144: Plane004
+    100146: Plane006
+    100148: Plane007
+    400000: beard
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone006
+    400012: Bone007
+    400014: Bone008
+    400016: Bone009
+    400018: Bone010
+    400020: Bone011
+    400022: Bone012
+    400024: Bone013
+    400026: Bone014
+    400028: Bone016
+    400030: Bone017
+    400032: Bone018
+    400034: Bone019
+    400036: Bone020
+    400038: Bone021
+    400040: Bone022
+    400042: Bone023
+    400044: Bone024
+    400046: Bone025
+    400048: Bone026
+    400050: Bone027
+    400052: Bone029
+    400054: Bone030
+    400056: Bone031
+    400058: Bone032
+    400060: Bone033
+    400062: Bone034
+    400064: Bone036
+    400066: Bone037
+    400068: Bone038
+    400070: Bone039
+    400072: Camera001
+    400074: //RootNode
+    400076: Dummy001
+    400078: Dummy002
+    400080: Dummy003
+    400082: Dummy004
+    400084: Dummy005
+    400086: Dummy006
+    400088: Dummy007
+    400090: Dummy008
+    400092: Dummy009
+    400094: Dummy010
+    400096: Dummy011
+    400098: Dummy012
+    400100: Dummy013
+    400102: Dummy014
+    400104: Dummy015
+    400106: Dummy016
+    400108: Dummy017
+    400110: Dummy018
+    400112: Dummy019
+    400114: Dummy020
+    400116: Dummy021
+    400118: Dummy023
+    400120: Dummy024
+    400122: Dummy026
+    400124: Dummy028
+    400126: Dummy030
+    400128: Dummy031
+    400130: Dummy032
+    400132: Dummy033
+    400134: Dummy034
+    400136: eye
+    400138: Mistush
+    400140: Plane001
+    400142: Plane002
+    400144: Plane004
+    400146: Plane006
+    400148: Plane007
+    2000000: Camera001
+    2100000: 01 - Default
+    4300000: Plane001
+    4300002: Plane002
+    4300004: Plane004
+    4300006: Plane006
+    4300008: Plane007
+    4300010: Mistush
+    4300012: beard
+    4300014: eye
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: beard
+    13700002: eye
+    13700004: Mistush
+    13700006: Plane001
+    13700008: Plane002
+    13700010: Plane004
+    13700012: Plane006
+    13700014: Plane007
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
