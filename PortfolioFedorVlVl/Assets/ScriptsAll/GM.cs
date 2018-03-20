@@ -4,8 +4,8 @@ using UnityEngine;
 #region My Unity portfolio 
 /*My portfolio
  * This project is Portfolio Fedor Vlasov
- * 1. Title (select Ru or En, music and sound ON/OFF)
- * --------------------------------------------
+ * 1. Title (select Ru or En, music and sound ON/OFF, automatic play)
+ * --------------------------------------------------
  * 2. Menu (models, animations, VFX Unity, codes, resume, contacts )
  *           ....................
  *    1) Title - animation (4-5 s)  
@@ -24,6 +24,15 @@ using UnityEngine;
 
 // Drive all my porfolio project (GUI and other part of them)
 public class GM : MonoBehaviour {
+	[Header ("Current status and datas")]
+	[Space]
+	public Lib.Language CurrentLanguage;
+	public Lib.SoundOnOff Sound;
+	public Lib.Automaticplay AutomaticPlay;
+	public Lib.Scenes CurrentScene;
+	[Space]
+	[Header ("----")]
+	public float speed=0f;
 
 	// Use this for initialization
 	void Start () {
@@ -35,6 +44,10 @@ public class GM : MonoBehaviour {
 		
 	}
 }
+
+/* notice, idea and other
+ зделать рандомные перебивки (птицы и др) которые будут подключать нужные сцены
+ * */
 
 /* working
  1) GUI
