@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Lib : MonoBehaviour {
 	public enum Scenes {Prevew,Sc1,Sc2};
-	public enum Language{ru, en};
+	public enum Language{ru,en};
 	public enum SoundOnOff{On,Off};
 	public enum Automaticplay{On,Off};
 
