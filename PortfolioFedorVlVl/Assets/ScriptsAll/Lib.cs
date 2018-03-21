@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Lib : MonoBehaviour {
-	public enum Scenes {Prevew,Sc1,Sc2};
-	public enum Language{ru,en};
+	public enum Scenes {Prevew,CaptanDed,Sc2};
+	public enum Language{En,Ru};
 	public enum SoundOnOff{On,Off};
 	public enum Automaticplay{On,Off};
 

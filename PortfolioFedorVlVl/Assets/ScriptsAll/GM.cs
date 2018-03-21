@@ -26,13 +26,57 @@ using UnityEngine;
 public class GM : MonoBehaviour {
 	[Header ("Current status and datas")]
 	[Space]
-	public Lib.Language CurrentLanguage;
+	public Lib.Language Language;
 	public Lib.SoundOnOff Sound;
 	public Lib.Automaticplay AutomaticPlay;
-	public Lib.Scenes CurrentScene;
+	public Lib.Scenes Scene;
 	[Space]
 	[Header ("----")]
-	public float speed=0f;
+	private Lib.Language CurrentLanguage;
+	private Lib.Scenes CurrentScene;
+
+	#region CurrentLanguage
+	void CurrentLanguageF()	{
+		if (CurrentLanguage!=Language) {
+			CurrentLanguage = Language;
+			switch (Language) {
+			case Lib.Language.En: CurrentLanguageEn(); break;
+			case Lib.Language.Ru: CurrentLanguageRu (); break;
+			default: CurrentLanguageEn (); break;
+			}
+		}
+	}
+	void CurrentLanguageEn(){
+		CurrentLanguageLog ();
+	}
+	void CurrentLanguageRu(){
+		CurrentLanguageLog ();
+	}
+	void CurrentLanguageLog(){
+		Debug.Log ("Language was change, now " + Language);
+	}
+	#endregion
+
+	#region Sound
+	#endregion
+
+	#region AutomaticPlay
+	#endregion
+
+	#region CurrentScene
+	void SceneF(){
+		if (Scene!=CurrentScene) {
+			CurrentScene = Scene;
+			SceneLoads();
+			}
+	}
+	void SceneLoads(){
+		CurrentSceneLog ();
+	}
+	void CurrentSceneLog(){
+		Debug.Log ("Scene was change, now " + CurrentScene);
+	}
+	#endregion
 
 	// Use this for initialization
 	void Start () {
@@ -41,7 +85,8 @@ public class GM : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		CurrentLanguageF();
+		SceneF ();
 	}
 }
 

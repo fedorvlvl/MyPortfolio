@@ -325,11 +325,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781df77ab8b8fcf438ab9ce907c4dc5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentLanguage: 0
+  Language: 0
   Sound: 0
   AutomaticPlay: 0
-  CurrentScene: 0
-  speed: 0
+  Scene: 0
 --- !u!4 &1400794683
 Transform:
   m_ObjectHideFlags: 0
