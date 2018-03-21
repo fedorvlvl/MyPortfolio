@@ -2,12 +2,14 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ScriptsAll\GM.cs">
     <Files>
-      <File FileName="Assets\ScriptsAll\Lib.cs" Line="10" Column="2" />
-      <File FileName="Assets\ScriptsAll\GM.cs" Line="25" Column="62" NotebookId="1" />
+      <File FileName="Assets\ScriptsAll\Lib.cs" Line="15" Column="33" />
+      <File FileName="Assets\ScriptsAll\GM.cs" Line="104" Column="79" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <RunToCursorBreakpoint file="D:\Fedor\portfolio\PortfolioFedorVlVl\Assets\ScriptsAll\Lib.cs" line="13" column="9" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

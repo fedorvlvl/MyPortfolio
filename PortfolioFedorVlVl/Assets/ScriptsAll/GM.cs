@@ -73,6 +73,7 @@ public class GM : MonoBehaviour {
 		if (SceneInProgect!=CurrentScene) {			
 			SceneLoads();
 			CurrentScene = SceneInProgect;
+			Debug.Log ("Scene was change, now scene - " + SceneInProgect);
 			}
 	}
 	void SceneLoads(){		
@@ -80,11 +81,6 @@ public class GM : MonoBehaviour {
 			SceneManager.LoadScene ((int)SceneInProgect,LoadSceneMode.Additive);
 		} 
 		SceneManager.UnloadScene ((int)CurrentScene);
-
-		CurrentSceneLog ();
-	}
-	void CurrentSceneLog(){
-		Debug.Log ("Scene was change, now scene - " + SceneInProgect);
 	}
 	#endregion
 
@@ -105,6 +101,6 @@ public class GM : MonoBehaviour {
  * */
 
 /* working
- 1) GUI
- 2)  
+ 1) thinking about transitions between scenes and decide a qustion with camera
+ 2) 
  * */
