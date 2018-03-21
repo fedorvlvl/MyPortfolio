@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 #region My Unity portfolio 
 /*My portfolio
  * This project is Portfolio Fedor Vlasov
@@ -29,11 +31,13 @@ public class GM : MonoBehaviour {
 	public Lib.Language Language;
 	public Lib.SoundOnOff Sound;
 	public Lib.Automaticplay AutomaticPlay;
-	public Lib.Scenes Scene;
 	[Space]
-	[Header ("----")]
+	[Header ("Drive stats")]
+	public Lib.ScenesIn SceneInProgect;
+	[Space]
+	[Header ("-----")]
 	private Lib.Language CurrentLanguage;
-	private Lib.Scenes CurrentScene;
+	private Lib.ScenesIn CurrentScene;
 
 	#region CurrentLanguage
 	void CurrentLanguageF()	{
@@ -64,17 +68,23 @@ public class GM : MonoBehaviour {
 	#endregion
 
 	#region CurrentScene
-	void SceneF(){
-		if (Scene!=CurrentScene) {
-			CurrentScene = Scene;
+
+	void ScenesF(){
+		if (SceneInProgect!=CurrentScene) {			
 			SceneLoads();
+			CurrentScene = SceneInProgect;
 			}
 	}
-	void SceneLoads(){
+	void SceneLoads(){		
+		if ((int)SceneInProgect != 0) {
+			SceneManager.LoadScene ((int)SceneInProgect,LoadSceneMode.Additive);
+		} 
+		SceneManager.UnloadScene ((int)CurrentScene);
+
 		CurrentSceneLog ();
 	}
 	void CurrentSceneLog(){
-		Debug.Log ("Scene was change, now " + CurrentScene);
+		Debug.Log ("Scene was change, now scene - " + SceneInProgect);
 	}
 	#endregion
 
@@ -86,7 +96,7 @@ public class GM : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		CurrentLanguageF();
-		SceneF ();
+		ScenesF ();
 	}
 }
 
