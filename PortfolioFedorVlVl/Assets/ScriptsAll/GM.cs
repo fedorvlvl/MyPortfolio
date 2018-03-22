@@ -6,21 +6,20 @@ using UnityEngine.SceneManagement;
 #region My Unity portfolio 
 /*My portfolio
  * This project is Portfolio Fedor Vlasov
- * 1. Title (select Ru or En, music and sound ON/OFF, automatic play)
+ * 1. Title (models, 2d animations, 3d animations, resume, contacts)
+ * 		The Buttons od setting: select Ru or En, music and sound ON/OFF, automatic play 
+ * SET: resume, contacts (2 animations (for both another) plays (2-3s) and come back for title animation base start)
  * --------------------------------------------------
- * 2. Menu (models, animations, VFX Unity, codes, resume, contacts )
+ * 2. Menu (models, 2d animations, 3d animations)
  *           ....................
- *    1) Title - animation (4-5 s)  
- *    2) models (start camera fly accros area with my models
- *               if we want we can drow camera and come to models
- *               what we like to see better)
- *    3) animation (select 2d, GUI animation, or 3d) after that we 
- *                  have opporunity to select models and use from
- *                  list of animations it.               
- *    4) vfx - effects particles and other
- *    5) codes change items for Hillary
- *    6) resume
- *    7) contacts  
+
+ * 
+ * Models - lokation whith my models
+ * 
+ * 2d animations - location when we can camera and aaround it turn on the 2d locations and 2d haracters
+ * 
+ * 1. GMPreview 
+ * 
  * */
 #endregion
 
@@ -97,7 +96,8 @@ public class GM : MonoBehaviour {
 }
 
 /* notice, idea and other
- зделать рандомные перебивки (птицы и др) которые будут подключать нужные сцены
+ зделать рандомные перебивки (птицы и др) которые будут подключать нужные сцены для 2d части.
+ найти модель города картоон и найти анимацию ковбоя.
  * */
 
 /* working
