@@ -83,8 +83,7 @@ public class GM : MonoBehaviour {
 			SceneManager.LoadScene ((int)SceneInProgect, LoadSceneMode.Additive);
 			cameraGM.SetActive(false);
 		} else 
-			cameraGM.SetActive(true);
-		
+			cameraGM.SetActive(true);		
 		SceneManager.UnloadScene ((int)CurrentScene);
 	}
 	#endregion
