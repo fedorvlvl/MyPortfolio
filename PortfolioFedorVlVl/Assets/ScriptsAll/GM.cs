@@ -35,8 +35,11 @@ public class GM : MonoBehaviour {
 	public Lib.ScenesIn SceneInProgect;
 	[Space]
 	[Header ("-----")]
+	public GameObject liblModels;
+	public GameObject cameraGM;
 	private Lib.Language CurrentLanguage;
 	private Lib.ScenesIn CurrentScene;
+
 
 	#region CurrentLanguage
 	void CurrentLanguageF()	{
@@ -77,8 +80,11 @@ public class GM : MonoBehaviour {
 	}
 	void SceneLoads(){		
 		if ((int)SceneInProgect != 0) {
-			SceneManager.LoadScene ((int)SceneInProgect,LoadSceneMode.Additive);
-		} 
+			SceneManager.LoadScene ((int)SceneInProgect, LoadSceneMode.Additive);
+			cameraGM.SetActive(false);
+		} else 
+			cameraGM.SetActive(true);
+		
 		SceneManager.UnloadScene ((int)CurrentScene);
 	}
 	#endregion

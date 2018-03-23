@@ -11,22 +11,6 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1564267248020912}
   m_IsPrefabParent: 1
---- !u!1 &1285101776094150
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4631182891402402}
-  - component: {fileID: 114987910555785058}
-  m_Layer: 0
-  m_Name: LibraryModels
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1564267248020912
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,7 +72,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4545200277275736}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4545200277275736
 Transform:
@@ -100,23 +84,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4631182891402402}
   - {fileID: 4000407398038854}
   - {fileID: 224536187283344860}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4631182891402402
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1285101776094150}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.9214573, y: 3.4567318, z: -0.15854272}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4545200277275736}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &20199265432084550
@@ -207,24 +177,8 @@ MonoBehaviour:
   Sound: 0
   AutomaticPlay: 0
   SceneInProgect: 0
---- !u!114 &114987910555785058
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1285101776094150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d741eb5be037bd409ba16b90b649134, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Models3D:
-  - {fileID: 1266084680461182, guid: af94518cf4d63b043b5abfb082f69ac6, type: 2}
-  - {fileID: 1871990836264626, guid: 4e643b6f293e01040af90ec8a0282f6e, type: 2}
-  Models2D:
-  - {fileID: 133590, guid: d69e6e28abb3725449126cec33471ab3, type: 2}
-  - {fileID: 160586, guid: 19762bd2383d6cd4db17c825b12d9082, type: 2}
-  - {fileID: 1295426369412482, guid: e1c2e57bea31fe34d8639ecf6f0dd5b4, type: 2}
+  liblModels: {fileID: 1122979481180414, guid: 6e1023c3a146a1e4485d20810fd811ae, type: 2}
+  cameraGM: {fileID: 1834004068415346}
 --- !u!223 &223282937968068368
 Canvas:
   m_ObjectHideFlags: 1
@@ -256,7 +210,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4545200277275736}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
