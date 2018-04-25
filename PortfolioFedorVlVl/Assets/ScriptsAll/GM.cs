@@ -81,7 +81,7 @@ public class GM : MonoBehaviour {
 	void SceneLoads(){		
 		if ((int)SceneInProgect != 0) {
 			SceneManager.LoadScene ((int)SceneInProgect, LoadSceneMode.Additive);
-			//cameraGM.SetActive(false);
+			cameraGM.SetActive(false);
 		} else 
 			cameraGM.SetActive(true);		
 		SceneManager.UnloadScene ((int)CurrentScene);
