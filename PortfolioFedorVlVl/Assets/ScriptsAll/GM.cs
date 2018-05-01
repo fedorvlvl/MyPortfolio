@@ -6,21 +6,18 @@ using UnityEngine.SceneManagement;
 #region My Unity portfolio 
 /*My portfolio
  * This project is Portfolio Fedor Vlasov
- * 1. Title (models, 2d animations, 3d animations, resume, contacts)
- * 		The Buttons od setting: select Ru or En, music and sound ON/OFF, automatic play 
- * SET: resume, contacts (2 animations (for both another) plays (2-3s) and come back for title animation base start)
- * --------------------------------------------------
- * 2. Menu (models, 2d animations, 3d animations)
- *           ....................
-	
- * 
+ *  Title (Fedor Vlasov, animations, demoreel)
+ * 		The Buttons od setting: select Ru or En, music and sound ON/OFF, automatic play (if need) 
+ * ----------------------------------------------------------------------------------------------
+ * 1. Menu - Fedor Vlasov - open resume
+ *           ....................	
+ * 2. Menu - aimation - open window menu (2d 3d)
  * Models - lokation whith my models
+ *           ....................
+ * 3. Menu - demoreel - open sceene whith Cartoon sity (the life streemeng)
+ * 2d animations - location when we can camera and aaround it turn on the 2d locations and 2d haracters 
  * 
- * 2d animations - location when we can camera and aaround it turn on the 2d locations and 2d haracters
- * 
- * 1. GMPreview 
- * 
- * */
+ */
 #endregion
 
 // Drive all my porfolio project (GUI and other part of them)
