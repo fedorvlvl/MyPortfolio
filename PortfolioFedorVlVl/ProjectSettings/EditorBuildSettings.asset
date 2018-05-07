@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/scenes/GM.unity
+    path: Assets/scenes/GMPreview.unity
     guid: ef6034c23cc0cd541bd954b4735f0b0a
+  - enabled: 1
+    path: Assets/scenes/FedorVlasov.unity
+    guid: adfb0ee244eef72428e693412f383c7d
+  - enabled: 1
+    path: Assets/scenes/Demoreel.unity
+    guid: 7cb48490be2e8ff408d523ded1d45024
+  - enabled: 1
+    path: Assets/scenes/Models.unity
+    guid: 4cbffebf203f6ee42a094fb9a4ffa0e3
   - enabled: 1
     path: Assets/scenes/Animations2D.unity
     guid: d8fe0ee1183d3ba448ae416e913765e0
@@ -15,5 +24,5 @@ EditorBuildSettings:
     path: Assets/scenes/Animations3D.unity
     guid: 6712d7e59650530429ba7e21c3962da1
   - enabled: 1
-    path: Assets/scenes/Models.unity
-    guid: 4cbffebf203f6ee42a094fb9a4ffa0e3
+    path: Assets/scenes/BonusGame.unity
+    guid: 9e9de3831bdc1894e905c910c8570f81

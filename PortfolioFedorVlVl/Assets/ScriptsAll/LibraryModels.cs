@@ -5,4 +5,5 @@ using UnityEngine;
 public class LibraryModels : MonoBehaviour {
 	public GameObject[] Models3D;
 	public GameObject[] Models2D;
+	public GameObject[] ModelsDemoreel;
 }

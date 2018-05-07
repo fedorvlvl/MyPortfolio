@@ -12,7 +12,7 @@ public class Lib : MonoBehaviour {
 
 	#region GM "Drive stats"
 
-	public enum ScenesIn {GMPreview,Animations2D,Animations3D,Models};
+	public enum ScenesIn {GMPreview,FedorVlasov,Demoreel,Models,Animations2D,Animations3D,BonusGame};
 	#endregion
 
 
