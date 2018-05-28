@@ -120,6 +120,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114012992106158052, guid: f227892446ab82c4292525c9a0a3ba67,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4868460670049890, guid: f227892446ab82c4292525c9a0a3ba67, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -151,6 +156,31 @@ Prefab:
     - target: {fileID: 4868460670049890, guid: f227892446ab82c4292525c9a0a3ba67, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114012992106158052, guid: f227892446ab82c4292525c9a0a3ba67,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114012992106158052, guid: f227892446ab82c4292525c9a0a3ba67,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114012992106158052, guid: f227892446ab82c4292525c9a0a3ba67,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1518404574}
+    - target: {fileID: 114012992106158052, guid: f227892446ab82c4292525c9a0a3ba67,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: FedorVlasovOn
+      objectReference: {fileID: 0}
+    - target: {fileID: 114012992106158052, guid: f227892446ab82c4292525c9a0a3ba67,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f227892446ab82c4292525c9a0a3ba67, type: 2}
@@ -217,3 +247,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1518404574 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114475656272666744, guid: f227892446ab82c4292525c9a0a3ba67,
+    type: 2}
+  m_PrefabInternal: {fileID: 53131358}
+  m_Script: {fileID: 11500000, guid: 11a4b8b4897e4b346944e6e41ced4e20, type: 3}

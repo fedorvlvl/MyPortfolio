@@ -9,7 +9,23 @@ public class GMAnimation : MonoBehaviour {
 	}
 	IEnumerator StartPortf ()
 	{
-		yield return new WaitForSeconds(3.0f);
+		yield return new WaitForSeconds(2.0f);
 		GetComponent<Animator>().SetLayerWeight(2,1);
+	}
+	public void backrndBlackOn ()
+	{
+		GetComponent<Animator>().SetTrigger("BggrndBlackOn");
+	}
+	public void backrndBlackOff ()
+	{
+		GetComponent<Animator>().SetTrigger("BggrndBlackOff");
+	}
+	public void GMPreviewOn ()
+	{
+		GetComponent<GM>().SceneInProgect=Lib.ScenesIn.GMPreview;
+	}
+	public void FedorVlasovOn ()
+	{
+		GetComponent<GM>().SceneInProgect=Lib.ScenesIn.FedorVlasov;
 	}
 }
