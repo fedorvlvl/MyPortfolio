@@ -103,6 +103,6 @@ public class GM : MonoBehaviour {
  * */
 
 /* working
- 1) thinking about transitions between scenes and decide a qustion with camera
+ 1) thinking about transitions between scenes and decide a qustion with camera___
  2) 
  * */
