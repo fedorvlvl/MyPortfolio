@@ -28,4 +28,8 @@ public class GMAnimation : MonoBehaviour {
 	{
 		GetComponent<GM>().SceneInProgect=Lib.ScenesIn.FedorVlasov;
 	}
+	public void DemoreelOn ()
+	{
+		GetComponent<GM>().SceneInProgect=Lib.ScenesIn.Demoreel;
+	}
 }
