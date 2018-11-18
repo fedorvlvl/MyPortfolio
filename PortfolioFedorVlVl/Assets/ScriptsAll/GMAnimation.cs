@@ -32,4 +32,20 @@ public class GMAnimation : MonoBehaviour {
 	{
 		GetComponent<GM>().SceneInProgect=Lib.ScenesIn.Demoreel;
 	}
+	public void Animations2DOn ()
+	{
+		GetComponent<GM>().SceneInProgect=Lib.ScenesIn.Animations2D;
+	}
+	public void Animations3DOn ()
+	{
+		GetComponent<GM>().SceneInProgect=Lib.ScenesIn.Animations3D;
+	}
+	public void ModelsOn ()
+	{
+		GetComponent<GM>().SceneInProgect=Lib.ScenesIn.Models;
+	}
+	public void BonusGameOn ()
+	{
+		GetComponent<GM>().SceneInProgect=Lib.ScenesIn.BonusGame;
+	}
 }
