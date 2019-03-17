@@ -7,3 +7,5 @@
 /PortfolioFedorVlVl.userprefs
 *.csproj
 *.userprefs
+/Packages/
+/Logs/
